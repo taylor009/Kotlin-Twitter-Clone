@@ -30,6 +30,8 @@ dependencies {
     implementation("io.ktor:ktor-server-core:$ktor_version")
     implementation("io.ktor:ktor-locations:$ktor_version")
     implementation("io.ktor:ktor-jackson:$ktor_version")
+    implementation("org.neo4j:neo4j-ogm-core:3.2.10")
+    implementation("org.neo4j:neo4j-ogm-bolt-driver:3.2.10")
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
 }
 
